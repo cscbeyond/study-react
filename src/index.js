@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-ReactDOM.render(<App />, document.getElementById('root'));
+import TodoList from './TodoList';
+// jsx语法中，如果我们要使用自己的组件，开头要大写
+ReactDOM.render(<TodoList />, document.getElementById('root'));
